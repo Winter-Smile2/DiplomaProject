@@ -41,7 +41,8 @@ INSTALLED_APPS = [
     'user',
     'wtoken',
     'topic',
-    'message'
+    'message',
+    'index'
 ]
 
 MIDDLEWARE = [

@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ef1cf7b2-9bf7-407b-ad22-5628500782cd" name="Default Changelist" comment="" />
+    <list default="true" id="ef1cf7b2-9bf7-407b-ad22-5628500782cd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/JDidSpider.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/comment_spider.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/test_find.py" beforeDir="false" afterPath="$PROJECT_DIR$/tools/test_find.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wiki/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/wiki/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wiki/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/wiki/urls.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,13 +24,20 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1Szt8yRnobFXB8sTjdVUx1yRaR8" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../client" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -29,6 +46,104 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="RunManager" selected="Python.comment_spider">
+    <configuration name="JDidSpider" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="wiki" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tools" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tools/JDidSpider.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="comment_spider" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="wiki" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tools" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tools/comment_spider.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_find" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="wiki" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tools" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tools/test_find.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="views" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="wiki" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/index" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/index/views.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.comment_spider" />
+        <item itemvalue="Python.test_find" />
+        <item itemvalue="Python.JDidSpider" />
+        <item itemvalue="Python.views" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -50,6 +165,29 @@
       <workItem from="1587618451148" duration="62000" />
       <workItem from="1587618549559" duration="596000" />
       <workItem from="1587639194212" duration="22000" />
+      <workItem from="1587976011235" duration="6409000" />
+      <workItem from="1588056573582" duration="1707000" />
+      <workItem from="1588058315739" duration="2658000" />
+      <workItem from="1588065853537" duration="60000" />
+      <workItem from="1588066613715" duration="4047000" />
+      <workItem from="1588075737107" duration="383000" />
+      <workItem from="1588076153201" duration="359000" />
+      <workItem from="1588082672090" duration="288000" />
+      <workItem from="1588124618575" duration="3056000" />
+      <workItem from="1588131722589" duration="596000" />
+      <workItem from="1588142697129" duration="618000" />
+      <workItem from="1588150845366" duration="3106000" />
+      <workItem from="1588294486286" duration="7763000" />
+      <workItem from="1588315606745" duration="2631000" />
+      <workItem from="1588321217916" duration="1858000" />
+      <workItem from="1589161635231" duration="10623000" />
+      <workItem from="1589245390641" duration="5657000" />
+      <workItem from="1589263160206" duration="6385000" />
+      <workItem from="1589422967696" duration="7300000" />
+      <workItem from="1589434804466" duration="405000" />
+      <workItem from="1589435233963" duration="9000" />
+      <workItem from="1589442072112" duration="947000" />
+      <workItem from="1589448053588" duration="2438000" />
     </task>
     <servers />
   </component>
@@ -57,15 +195,61 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="646" y="215" width="424" height="484" key="FileChooserDialogImpl" timestamp="1587639213376">
-      <screen x="67" y="27" width="1591" height="862" />
+    <state x="740" y="215" width="424" height="484" key="FileChooserDialogImpl" timestamp="1588214921853">
+      <screen x="67" y="27" width="1849" height="862" />
     </state>
     <state x="645" y="215" key="FileChooserDialogImpl/67.27.1589.862@67.27.1589.862" timestamp="1587540571957" />
     <state x="646" y="215" width="424" height="484" key="FileChooserDialogImpl/67.27.1591.862@67.27.1591.862" timestamp="1587639213376" />
     <state x="649" y="215" width="424" height="484" key="FileChooserDialogImpl/67.27.1599.862@67.27.1599.862" timestamp="1586764129525" />
-    <state x="515" y="282" key="com.intellij.ide.util.TipDialog" timestamp="1587639195149">
-      <screen x="67" y="27" width="1591" height="862" />
+    <state x="740" y="215" width="424" height="484" key="FileChooserDialogImpl/67.27.1849.862@67.27.1849.862" timestamp="1588214921853" />
+    <state width="1795" height="345" key="GridCell.Tab.0.bottom" timestamp="1589450618390">
+      <screen x="67" y="27" width="1849" height="862" />
     </state>
+    <state width="1537" height="258" key="GridCell.Tab.0.bottom/67.27.1591.862@67.27.1591.862" timestamp="1588295654941" />
+    <state width="1795" height="345" key="GridCell.Tab.0.bottom/67.27.1849.862@67.27.1849.862" timestamp="1589450618390" />
+    <state width="1799" height="634" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1589262876986" />
+    <state width="833" height="44" key="GridCell.Tab.0.bottom/67.27.887.852@67.27.887.852" timestamp="1588059511046" />
+    <state width="1795" height="345" key="GridCell.Tab.0.center" timestamp="1589450618389">
+      <screen x="67" y="27" width="1849" height="862" />
+    </state>
+    <state width="1537" height="258" key="GridCell.Tab.0.center/67.27.1591.862@67.27.1591.862" timestamp="1588295654939" />
+    <state width="1795" height="345" key="GridCell.Tab.0.center/67.27.1849.862@67.27.1849.862" timestamp="1589450618389" />
+    <state width="1799" height="634" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1589262876984" />
+    <state width="833" height="44" key="GridCell.Tab.0.center/67.27.887.852@67.27.887.852" timestamp="1588059511046" />
+    <state width="1795" height="345" key="GridCell.Tab.0.left" timestamp="1589450618388">
+      <screen x="67" y="27" width="1849" height="862" />
+    </state>
+    <state width="1537" height="258" key="GridCell.Tab.0.left/67.27.1591.862@67.27.1591.862" timestamp="1588295654938" />
+    <state width="1795" height="345" key="GridCell.Tab.0.left/67.27.1849.862@67.27.1849.862" timestamp="1589450618388" />
+    <state width="1799" height="634" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1589262876983" />
+    <state width="833" height="44" key="GridCell.Tab.0.left/67.27.887.852@67.27.887.852" timestamp="1588059511045" />
+    <state width="1795" height="345" key="GridCell.Tab.0.right" timestamp="1589450618390">
+      <screen x="67" y="27" width="1849" height="862" />
+    </state>
+    <state width="1537" height="258" key="GridCell.Tab.0.right/67.27.1591.862@67.27.1591.862" timestamp="1588295654940" />
+    <state width="1795" height="345" key="GridCell.Tab.0.right/67.27.1849.862@67.27.1849.862" timestamp="1589450618390" />
+    <state width="1799" height="634" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1589262876985" />
+    <state width="833" height="44" key="GridCell.Tab.0.right/67.27.887.852@67.27.887.852" timestamp="1588059511046" />
+    <state x="588" y="282" key="com.intellij.ide.util.TipDialog" timestamp="1589448056100">
+      <screen x="67" y="27" width="1849" height="862" />
+    </state>
+    <state x="512" y="282" key="com.intellij.ide.util.TipDialog/67.27.1580.862@67.27.1580.862" timestamp="1589161657000" />
     <state x="515" y="282" key="com.intellij.ide.util.TipDialog/67.27.1591.862@67.27.1591.862" timestamp="1587639195149" />
+    <state x="588" y="282" key="com.intellij.ide.util.TipDialog/67.27.1849.862@67.27.1849.862" timestamp="1589448056100" />
+    <state x="589" y="339" key="com.intellij.ide.util.TipDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1588315627496" />
+    <state x="441" y="146" width="1092" height="623" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1588076107013">
+      <screen x="67" y="27" width="1849" height="862" />
+    </state>
+    <state x="441" y="146" width="1092" height="623" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/67.27.1849.862@67.27.1849.862" timestamp="1588076107013" />
+    <state x="654" y="210" width="672" height="678" key="search.everywhere.popup" timestamp="1589423005697">
+      <screen x="67" y="27" width="1849" height="862" />
+    </state>
+    <state x="654" y="210" width="672" height="678" key="search.everywhere.popup/67.27.1849.862@67.27.1849.862" timestamp="1589423005697" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/wiki$comment_spider.coverage" NAME="comment_spider Coverage Results" MODIFIED="1589450618375" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tools" />
+    <SUITE FILE_PATH="coverage/wiki$views.coverage" NAME="views Coverage Results" MODIFIED="1588318808623" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/index" />
+    <SUITE FILE_PATH="coverage/wiki$test_find.coverage" NAME="test_find Coverage Results" MODIFIED="1589449031947" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tools" />
+    <SUITE FILE_PATH="coverage/wiki$JDidSpider.coverage" NAME="JDidSpider Coverage Results" MODIFIED="1589267592839" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tools" />
   </component>
 </project>

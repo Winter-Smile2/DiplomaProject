@@ -1,52 +1,23 @@
-'''
-题目要求：输入  [
-                {id:1, parent_id:0},
-	            {id:2, parent_id:1},
-                {id:3, parent_id:0},
-                {id:4, parent_id:3},
-                {id:5, parent_id:1}
-                           ]
-输出结果：
-	    [
-	        {id:1, children:[{id:2}...]},
-	        {id:3, children:[{id:4}...]}
-        ]
-'''
-def find_father(input_list):
-    home = {}
-    parent_list = []
-    for data in input_list:
-        if data['parent_id'] == 0:
-            #爹
-            parent_list.append({'id':data['id']})
-        else:
-            #孩子们
-            p_id = data['parent_id']
-            if p_id not in home:
-                home[p_id] = []
-                home[p_id].append({'id':data['id']})
-            else:
-                home[p_id].append({'id': data['id']})
-
-            # home.setdefault(p_id, [])
-            # home[p_id].append({'id': data['id']})
+import csv
 
 
+def write_csv_file(path, head, data):
+    try:
+        with open(path, 'w', newline='') as csv_file:
+            writer = csv.writer(csv_file, delimiter=' ', quotechar='|', quoting=csv.QUOTE_MINIMAL)
 
-    for f in parent_list:
-        if f['id'] in home:
-            f['children'] = home[f['id']]
+            if head is not None:
+                writer.writerow(head)
 
-    return parent_list
+            for row in data:
+                print(row)
+                writer.writerow(row)
 
-   #  input_list : [{id: 1, parent_id: 0}, {id:2, parent_id: 1}, {id:8, parent_id: 1}]
-   # home: { 1 : [{id:'2'},{id:'8'}]}
-   # parent_list: [{id:1},{id:3}]
-   # parent_list [{id:1, children:[{id:2},{id:8}]}]
-
-
-
-
-
-
-
+            print("Write a CSV file to path %s Successful." % path)
+    except Exception as e:
+        print("Write an CSV file to path: %s, Case: %s" % (path, e))
+if __name__ == '__main__':
+    path = 'dog.csv'
+    head = None
+    data = [('这里真好，'),('这里不咋地'),('这里真破')]
+    write_csv_file(path,head,data)

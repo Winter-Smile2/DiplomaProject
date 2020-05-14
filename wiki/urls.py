@@ -24,6 +24,8 @@ urlpatterns = [
     url(r'^test/', views.test),
     #http://127.0.0.1:8000/tple/users
     url(r'^tple/users', include('user.urls')),
+    # http://127.0.0.1:8000/tple/index
+    url(r'^tple/index',include('index.urls')),
     #http://127.0.0.1:8000/tple/tokens
     url(r'v1/tokens', include('wtoken.urls')),
     #http://127.0.0.1:8000/tple/topics
